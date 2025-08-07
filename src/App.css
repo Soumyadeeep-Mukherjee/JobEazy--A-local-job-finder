@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #689ee0;
+}
+
+.container {
+  padding: 1rem;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a73e8;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  height: 50px;
+}
+
+.main-columns {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.left-panel {
+  flex: 2;
+}
+
+.right-panel {
+  flex: 1;
+  background: #1a1a1a;
+  padding: 1.5rem;
+  color: white;
+  border-radius: 12px;
+}
+
+.post-form {
+  background: #8482f5a8;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.post-form textarea {
+  min-height: 100px;
+}
+
+.post-form button {
+  margin-top: 12px;
+  padding: 12px;
+  background-color: #1a73e8;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.post-form button:hover {
+  background-color: #155ab6;
+}
+
+.job-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  color: rgb(32, 31, 31);
+}
+
+.gemini-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.gemini-input input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+}
+
+.gemini-input button {
+  padding: 12px 16px;
+  background: #1a73e8;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.gemini-input button:hover {
+  background-color: #0f57c5;
+}
+
+.gemini-output {
+  white-space: pre-wrap;
+  background: #f8f9fa;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
